@@ -5148,8 +5148,8 @@ class ImageDescriptor extends NativeFieldWrapperClass2 {
 
   /// Creates an image descriptor from raw image pixels.
   ///
-  /// The `pixels` parameter is the pixel data in the encoding described by
-  /// `format`.
+  /// The `buffer` parameter is the pixel data in the encoding described by
+  /// `pixelFormat`.
   ///
   /// The `rowBytes` parameter is the number of bytes consumed by each row of
   /// pixels in the data buffer. If unspecified, it defaults to `width` multiplied
